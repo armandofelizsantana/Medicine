@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Medicine.Domain.Entities
 {
-    internal class Disponibilidad
+    public class Disponibilidad
     {
+        public int Id { get; set; }
+        public DateTime Fecha { get; set; }
     }
+
 }

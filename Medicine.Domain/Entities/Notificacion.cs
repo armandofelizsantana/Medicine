@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Medicine.Domain.Entities
 {
-    internal class Notificacion
+    public class Notificacion
     {
+        public int Id { get; set; }
+        public string Mensaje { get; set; }
     }
 }
